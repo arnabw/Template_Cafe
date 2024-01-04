@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Flamenco:wght@300;400&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+html, body{
+    font-family: 'Flamenco', system-ui;
+}
+/* Menu Section */
+.topMenu{
+    /* position: sticky; */
+    color: #fff!important;
+    background-color: #000!important;
+}
+.menu{
+    display: flex;
+    color: #fff!important;
+    background-color: #000!important;
+}
+.menuPadding{
+    padding: 8px 16px!important;
+}
+.menuColor{
+    color: #fff!important;
+    background-color: #000!important;
+}
+.menuBtn{
+    padding: 8px 16px;
+    vertical-align: middle;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+/*Header Section*/
+#bgHead{
+    background-image: url(../img/cafeH.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.headTime{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 8px;
+}
+.textCenter{
+    text-align: center!important;
+}
+.text-color{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 4px 8px;
+    text-align: center;
+}
+.headTime2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 8px;
+}
+.headBody{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+.textWhite{
+    color: #fff!important;
+}
+/* About Section */
+.padd{
+    padding-top: 50px;
+}
+.content{
+    text-align: center;
+}
+.content h4{
+    margin-bottom: 50px;
+    font-variant: small-caps;
+    word-spacing: 5px;
+}
+.content p{
+    text-align: justify;
+    font-size: 22px;
+    word-spacing: 8px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+.iContent{
+    text-align: justify;
+    font-size: 20px;
+    word-spacing: 5px;
+    line-height: 1.3;
+    background-color: #F1F1F1;
+    border-left: 6px solid #C2C2C2;
+    padding: 20px 20px 0 20px;
+    margin-bottom: 24px;
+}
+.content img{
+    margin-bottom: 24px;
+}
+/* Menu */
+.foodDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.foodDiv div{
+    min-width: 100px;
+    max-width: 200px;
+}
+.foodDiv div img{
+    width: 100%;
+    height: 150px;
+}
+/*Where*/
+
+/* .content form input{
+    display: block;
+    padding: 8px 16px!important;
+    margin: 0 20px;
+    width: 100%;
+    border: 1px solid #ccc!important;
+}
+button{
+    display: inline-block;
+    padding: 8px 16px!important;
+    cursor: pointer;
+    white-space: nowrap;
+
+} */
+
+/* Footer */
+#foot{
+    padding: 50px;
+    background-color: #F1F1F1;
+    text-align: center;
+}
